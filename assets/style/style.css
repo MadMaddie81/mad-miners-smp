@@ -5,3 +5,14 @@
     padding: 0;
     border: none;
 }
+
+body {
+    background: 
+        url(../images/background.jpg)
+        no-repeat
+        fixed
+        top center / auto 115%
+        #8ab5ff
+    ;
+    
+}
