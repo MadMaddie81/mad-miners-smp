@@ -12,7 +12,29 @@ body {
         no-repeat
         fixed
         top center / auto 115%
-        #8ab5ff
-    ;
-    
+        #8ab5ff;   
+}
+
+header {
+    background-color: rgba(37, 57, 74, .4);
+    width: 100%;
+    height: 20vh;
+}
+
+#header-flexbox {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#minecraft-logo {
+    height: 20%;
+    margin: 0 auto;
+}
+
+#madminers-header {
+    height: 60%;
+    width: auto;
+    margin: 0 auto;
+    padding-top: 5px;
 }
