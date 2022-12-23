@@ -12,29 +12,93 @@ body {
         no-repeat
         fixed
         top center / auto 115%
-        #8ab5ff;   
-}
+        #8ab5ff; 
+    }
 
-header {
+/* Header */
+
+.header-background {
     background-color: rgba(37, 57, 74, .4);
     width: 100%;
     height: 20vh;
 }
 
-#header-flexbox {
+.header-flexbox {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-flow: column;
 }
 
-#minecraft-logo {
+.minecraft-logo {
     height: 20%;
+    width: auto;
     margin: 0 auto;
 }
 
-#madminers-header {
+.madminers-header {
     height: 60%;
     width: auto;
     margin: 0 auto;
     padding-top: 5px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 950px) {
+    .madminers-header {
+        width: 60%;
+        height: auto;
+    }
+    .minecraft-logo {
+        width: 20%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .madminers-header {
+        width: 70%;
+        height: auto;
+    }
+
+    .minecraft-logo {
+        width: 25%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-background{
+        height: 13vh;
+    }
+    .madminers-header {
+        width: 80%;
+        height: auto;
+    }
+
+    .minecraft-logo {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    body {
+        background: 
+            url(../images/background.jpg)
+            no-repeat
+            fixed
+            top center / 100% auto
+            #8ab5ff; 
+        }
+    .madminers-header {
+        height: 20vh;
+        width: auto;
+    }
+    .minecraft-logo {
+        display: none;
+    }
 }
