@@ -15,6 +15,10 @@ body {
         #8ab5ff; 
     }
 
+h2 {
+    font-family: Kenit, sans-serif;
+}
+
 /* Header */
 
 .header-background {
@@ -58,17 +62,46 @@ body {
     height: 500px;
     background-color: rgba(37, 57, 74, .4);
     margin-right: 10px;
+    padding: 10px 5px 0 0px;
     border: #3b6385 outset 2px;
     border-radius: 0 20px 0 0;
     display: flex;
     flex-flow: column nowrap;
 }
 
+
+.nav-button {
+    background-color: transparent;
+    display: flex;
+    margin: 5px auto;
+    text-decoration: none;
+}
+
+
+.nav-text {
+    width: 130px;
+    height: 25px;
+    background-color: #25394a;
+    color: #ffd2a2;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 5px;
+    font-size: 110%;
+    letter-spacing: 1px;
+    border: solid black 1px;
+    border-radius: 0 8px 0 0;
+}
+
+.nav-text:hover, .button-active {
+    background-color: #d4e9ff;
+    color: #25394a;
+}
+
 /* Main Article */
 
 .article-box {
     width: 600px;
-    height: 700px;
+    height: 900px;
     background-color: rgba(212, 233, 255, .6);
     border: #3b6385 outset 2px;
     border-radius: 0 40px 0 0;
