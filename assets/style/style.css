@@ -45,6 +45,31 @@ body {
     padding-top: 5px;
 }
 
+.main-area-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Navigation Bar*/
+
+.nav-box {
+    width: 200px;
+    height: 500px;
+    background-color: rgba(37, 57, 74, .4);
+    margin-right: 10px;
+    border: #25394a solid 1px;
+}
+
+/* Main Article */
+
+.article-box {
+    width: 600px;
+    height: 700px;
+    background-color: rgba(212, 233, 255, .6);
+    border: #25394a solid 1px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 950px) {
