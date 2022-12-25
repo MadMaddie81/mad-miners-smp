@@ -48,7 +48,7 @@ body {
 .main-area-box {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 /* Navigation Bar*/
@@ -58,7 +58,8 @@ body {
     height: 500px;
     background-color: rgba(37, 57, 74, .4);
     margin-right: 10px;
-    border: #25394a solid 1px;
+    border: #3b6385 outset 2px;
+    border-radius: 0 20px 0 0;
 }
 
 /* Main Article */
@@ -67,7 +68,9 @@ body {
     width: 600px;
     height: 700px;
     background-color: rgba(212, 233, 255, .6);
-    border: #25394a solid 1px;
+    border: #3b6385 outset 2px;
+    border-radius: 0 40px 0 0;
+
 }
 
 /* Media queries */
