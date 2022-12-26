@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Kanit:ital@1&family=Proza+Libre:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Josefin+Sans:wght@700&family=Kanit:ital@1&display=swap');
 
 * {
     margin: 0;
@@ -16,9 +16,18 @@ body {
         min-height: 100vh;
     }
 
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color: #131e27;
+    margin: 5px 0;
+}
+
 h2 {
     font-family: Kenit, sans-serif;
+    color: #25394a;
 }
+
 
 /* Header */
 
@@ -99,13 +108,22 @@ h2 {
 
 /* Main Article */
 
-.article-box {
+#article-box {
     width: 600px;
     height: 900px;
     background-color: rgba(212, 233, 255, .6);
     border: #3b6385 outset 2px;
     border-radius: 0 40px 0 0;
+    padding-top: 20px;
+}
 
+#article-box > h1, #article-box > h2 {
+    text-align: center;
+}
+
+#article-box > hr {
+    border: solid 1px #131e27;
+    margin: 15px 20px;
 }
 
 /* Footer */
@@ -144,7 +162,7 @@ footer {
         width: 50vw;
     }
 
-    .article-box {
+    #article-box {
         margin: 15px auto;
         width: 90vw;
     }
