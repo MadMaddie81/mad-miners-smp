@@ -131,7 +131,7 @@ p {
 }
 
 #values {
-    margin: 30px 40px;
+    margin: 15px 40px;
     display: inline-block;
 }
 
@@ -194,6 +194,19 @@ footer {
     #article-box {
         margin: 15px auto;
         width: 90vw;
+    }
+
+    #values > div {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 5%;
+    }
+
+    .values-imgs {
+        width: 60%;
+        margin: 15px 20%;
+        float: none;
     }
 }
 
