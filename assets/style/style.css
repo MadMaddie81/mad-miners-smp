@@ -23,9 +23,13 @@ h1 {
     margin: 5px 0;
 }
 
-h2 {
+h2, h3 {
     font-family: Kenit, sans-serif;
     color: #25394a;
+}
+
+p {
+    font-family: Imprima, sans-serif;
 }
 
 
@@ -109,7 +113,7 @@ h2 {
 /* Main Article */
 
 #article-box {
-    width: 600px;
+    width: 650px;
     height: 900px;
     background-color: rgba(212, 233, 255, .6);
     border: #3b6385 outset 2px;
@@ -124,6 +128,31 @@ h2 {
 #article-box > hr {
     border: solid 1px #131e27;
     margin: 15px 20px;
+}
+
+#values {
+    margin: 30px 40px;
+    display: inline-block;
+}
+
+#values > div {
+    width: 50%;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 10px 10px;
+    border-radius: 0 20px 0 0;
+    float: left;
+    vertical-align: middle;
+}
+
+.values-imgs {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    border: #3b6385 3px outset;    
+}
+
+.values-float-right {
+    float: right;
 }
 
 /* Footer */
