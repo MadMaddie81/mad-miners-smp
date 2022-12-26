@@ -11,7 +11,7 @@ body {
         url(../images/background.jpg)
         no-repeat
         fixed
-        top center / auto 115%
+        top center / auto 120%
         #8ab5ff; 
         min-height: 100vh;
     }
@@ -102,11 +102,32 @@ p {
     margin-left: 5px;
     font-size: 110%;
     letter-spacing: 1px;
-    border: solid black 1px;
+    border: solid #000 1px;
     border-radius: 0 8px 0 0;
 }
 
-.nav-text:hover, .button-active {
+#discord-link {
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #ffd2a2;
+    background: #25394a;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    border: solid 1px #000;
+}
+
+#discord-link h2 {
+    font-size: 115%;
+    color: inherit;
+}
+
+#discord-logo {
+    font-size: 300%;
+}
+
+.nav-text:hover, .button-active, #discord-link:hover {
     background-color: #d4e9ff;
     color: #25394a;
 }
@@ -271,5 +292,8 @@ footer h3 {
     }
     .minecraft-logo {
         display: none;
+    }
+    body {
+        background: #8ab5ff;
     }
 }
