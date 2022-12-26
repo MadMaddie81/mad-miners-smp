@@ -230,6 +230,11 @@ footer h3 {
         width: 50vw;
     }
 
+    #discord-link {
+        width: 55vw;
+        margin: 0 auto;
+    }
+
     #article-box {
         margin: 5% auto;
         width: 90vw;
