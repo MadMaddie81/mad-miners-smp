@@ -136,16 +136,19 @@ p {
 }
 
 #values > div {
-    width: 50%;
+    width: 45%;
     background-color: rgba(255, 255, 255, .4);
-    padding: 10px 10px;
+    padding: 10px 20px 20px;
     border-radius: 0 20px 0 0;
     float: left;
-    vertical-align: middle;
+}
+
+#values h3 {
+    margin: 7px 0
 }
 
 .values-imgs {
-    width: 40%;
+    width: 45%;
     height: auto;
     border-radius: 50%;
     border: #3b6385 3px outset;    
@@ -192,12 +195,16 @@ footer {
     }
 
     #article-box {
-        margin: 15px auto;
+        margin: 5% auto;
         width: 90vw;
     }
 
+    #values {
+        margin: 5%;
+    }
+
     #values > div {
-        width: 90%;
+        width: 80%;
         height: auto;
         display: block;
         margin: 0 5%;
@@ -235,17 +242,13 @@ footer {
         width: 30%;
         height: auto;
     }
+
+    body {
+        background: #8ab5ff;
+    }
 }
 
-@media screen and (max-height: 500px) {
-    body {
-        background: 
-            url(../images/background.jpg)
-            no-repeat
-            fixed
-            top center / 100% auto
-            #8ab5ff; 
-        }
+@media screen and (max-height: 500px) { 
     .madminers-header {
         height: 20vh;
         width: auto;
