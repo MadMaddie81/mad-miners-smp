@@ -17,7 +17,7 @@ The layout is made to prepare for possible future add-space below the navigation
 ### __Header & Navigation__
 
 * Featured on all pages throughout the project.
-* The responsive navigation bar includes links to the Home page, Server Faq, Members and How To Join. It also has a link to a Discord server that will open in a new tab.
+* The responsive navigation bar includes links to the Home page, Server Info, Members and How To Join. It also has a link to a Discord server that will open in a new tab.
 
 ### __Server Values Section__
 
@@ -34,7 +34,6 @@ As I go along with my project I have been checking my pushed commits in Chrome, 
 * Upon first deploying the project to GitHub Pages the header images didn't load. I quickly realised my misstake of using absolute file paths and the bug was quickly solved by removing some slashes.
 * I wanted to make the little star gif in the nav bar to only be visible while hovering or active. I spent way too long trying to make it behave as I want. I might return to it later.
 * I also wanted to make the nav bar fixed so it would follow along when scrolling. It got way too complicated to make it stay where I wanted when changing the viewport size. That kind of feature is easier to handle when it's at the top instead of to the side.
-
 
 <hr>
 

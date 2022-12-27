@@ -85,7 +85,7 @@ p {
 }
 
 
-.nav-button {
+.nav-option {
     background-color: transparent;
     display: flex;
     margin: 5px auto;
@@ -127,7 +127,7 @@ p {
     font-size: 300%;
 }
 
-.nav-text:hover, .button-active, #discord-link:hover {
+.nav-text:hover, .option-active, #discord-link:hover {
     background-color: #d4e9ff;
     color: #25394a;
 }
