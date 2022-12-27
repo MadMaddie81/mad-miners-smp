@@ -144,7 +144,7 @@ p {
     padding-top: 20px;
 }
 
-#article-box > h1, #article-box > h2 {
+.align-center {
     text-align: center;
 }
 
@@ -203,6 +203,21 @@ p {
 
 #map-captions {
     margin-left: 25%;
+}
+
+.info-text {
+    margin: auto 8%;
+    color: #131e27;
+}
+
+article > ul {
+    font-family: 'Noto Sans', sans-serif;
+    list-style: none;
+    padding-top: 10px;
+}
+
+#nodecraft {
+    text-decoration: none;
 }
 
 /* Footer */
