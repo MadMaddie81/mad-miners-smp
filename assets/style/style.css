@@ -309,8 +309,24 @@ p {
     padding: 0 25%;
 }
 
+.screenshot-box {
+    background-color: #25394a;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    width: 400px;
+    height: 270px;
+    margin: auto;
+    border-radius: 0 20px 0 0;
+    border: #3b6385 3px outset;
+}
+
 .screenshots {
-    background-color: rgba(255, 255, 255, .4);
+    height: 250px;
+    width: 400px;
+    margin-right: 3px;
+    scroll-snap-align: center;
 }
 
 /* Footer */
@@ -442,6 +458,16 @@ footer h3 {
 
     .go-top {
         margin-right: 0;
+    }
+
+    .screenshot-box {
+        width: 280px;
+        height: 200px;
+    }
+
+    .screenshots {
+        width: 300px;
+        height: auto;
     }
 
 }
