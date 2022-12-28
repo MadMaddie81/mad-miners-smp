@@ -230,6 +230,10 @@ article > ul {
     margin: 0 15px 0 5px;
 }
 
+.header-margin {
+    margin-top: 10px;
+}
+
 /* Footer */
 
 footer {
