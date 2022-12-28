@@ -284,6 +284,10 @@ p {
     margin: auto 8%;
 }
 
+.social-links {
+    color: #131e27;
+}
+
 .member-img {
     height: 200px;
     float: right;
@@ -295,13 +299,18 @@ p {
     background-color: rgba(255, 255, 255, .4);
     padding: 15px 20px;
     margin-top: 10px;
+    border-radius: 0 20px 0 0;
 }
 
 .yt-frame {
-    width: 280px;
-    height: 210px;
-    float: right;
-    margin-top: 15px;
+    height: fit-content;
+    width: fit-content;
+    margin: 15px 0;
+    padding: 0 25%;
+}
+
+.screenshots {
+    background-color: rgba(255, 255, 255, .4);
 }
 
 /* Footer */
@@ -388,6 +397,11 @@ footer h3 {
 
     .info-nav-option {
         width: 70%;
+    }
+
+    .yt-frame {
+        margin: 15px auto;
+        padding: 0;
     }
 
 }
