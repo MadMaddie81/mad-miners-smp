@@ -96,7 +96,7 @@ p {
     width: 130px;
     height: 25px;
     background-color: #25394a;
-    color: #ffd2a2;
+    color: #d4e9ff;
     padding: 3px 5px 3px 10px;
     margin-left: 5px;
     font-family: 'Noto Sans', sans-serif;
@@ -110,7 +110,7 @@ p {
     text-align: center;
     margin-top: 5px;
     text-decoration: none;
-    color: #ffd2a2;
+    color: #d4e9ff;
     background: #25394a;
     padding: 15px;
     margin: 10px;
@@ -188,6 +188,25 @@ p {
 }
 
 /* Server Info */
+
+#info-navigation {
+    width: 90%;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    background-color: rgba(37, 57, 74, .4);
+    border-radius: 0 20px 0 0;
+}
+
+.info-nav-option {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    margin: auto 20px;
+}
 
 #map {
     width: 50%;
