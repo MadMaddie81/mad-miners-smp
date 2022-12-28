@@ -96,7 +96,7 @@ p {
     width: 130px;
     height: 25px;
     background-color: #25394a;
-    color: #d4e9ff;
+    color: #e7f3ff;
     padding: 3px 5px 3px 10px;
     margin-left: 5px;
     font-family: 'Noto Sans', sans-serif;
@@ -110,7 +110,7 @@ p {
     text-align: center;
     margin-top: 5px;
     text-decoration: none;
-    color: #d4e9ff;
+    color: #e7f3ff;
     background: #25394a;
     padding: 15px;
     margin: 10px;
@@ -148,7 +148,7 @@ p {
     text-align: center;
 }
 
-#article-box > hr {
+#article-box hr {
     border: solid 1px #131e27;
     margin: 15px 20px;
 }
@@ -239,14 +239,23 @@ p {
     text-decoration: none;
 }
 
+.hr-div {
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+}
+
+.hr-div hr {
+    width: 87%;
+}
+
 .go-top {
-    float: right;
+    order: 2;
     font-family: Kanit, sans-serif;
     font-weight: 700;
     font-size: 110%;
     text-decoration: none;
     color: #131e27;
-    margin: 0 15px 0 5px;
 }
 
 .header-margin {
