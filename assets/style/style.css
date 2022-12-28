@@ -280,6 +280,24 @@ p {
     margin: 0 auto;
 }
 
+.member-section {
+    margin: auto 8%
+}
+
+.member-img {
+    height: 200px;
+    float: right;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.member-presentation {
+    background-color: rgba(255, 255, 255, .4);
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+
 /* Footer */
 
 footer {
