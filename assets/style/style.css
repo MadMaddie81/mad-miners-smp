@@ -320,6 +320,7 @@ p {
     margin: auto;
     border-radius: 0 20px 0 0;
     border: #3b6385 3px outset;
+    margin-top: 15px;
 }
 
 .screenshots {
