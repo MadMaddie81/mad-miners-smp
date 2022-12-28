@@ -270,6 +270,16 @@ p {
     margin: 5px 8% 5px 10%;
 }
 
+/* Members */
+
+.member-recognition {
+    width: 80%;
+    font-weight: 700;
+    font-size: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* Footer */
 
 footer {
