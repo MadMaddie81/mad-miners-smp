@@ -210,7 +210,7 @@ p {
     color: #131e27;
 }
 
-article > ul {
+.tech-list {
     font-family: 'Noto Sans', sans-serif;
     list-style: none;
     padding-top: 10px;
@@ -232,6 +232,11 @@ article > ul {
 
 .header-margin {
     margin-top: 10px;
+}
+
+.datapack-list {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 5px 8% 5px 10%;
 }
 
 /* Footer */
