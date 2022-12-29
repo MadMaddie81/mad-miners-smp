@@ -433,7 +433,7 @@ p {
     border-radius: 10px;
 }
 
-/* Form Submit Page */
+/* Form Submit Page and 404 Page */
 
 .thankyou {
     width: 80%;
@@ -443,6 +443,18 @@ p {
 #maddie-point {
     width: 30%;
     margin:  0 35% 50px;
+}
+
+#error {
+    font-size: 600%;
+    margin-top: 30px;
+}
+
+#mad-and-coop {
+    width: 80%;
+    margin: 30px 10%;
+    border: 3px outset #3b6385;
+    border-radius: 0 30px 0 0;
 }
 
 
