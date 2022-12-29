@@ -377,6 +377,52 @@ p {
     line-height: 100%;
 }
 
+#form {
+    max-width: 80%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, .4);
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 40px 0 0;
+}
+
+#form-inner-box {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.form-label {
+    font-family: kanit, sans-serif;
+    font-size: 20px;
+    color: #25394a;
+    font-weight: 400;
+}
+
+.text-input {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100%;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+}
+
+.checkbox-label {
+    font-family: Kanit, sans-serif;
+    color: #25394a;
+}
+
+.checkbox {
+    margin-left: 5px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+
+
 /* Footer */
 
 footer {
