@@ -433,6 +433,17 @@ p {
     border-radius: 10px;
 }
 
+/* Form Submit Page */
+
+.thankyou {
+    width: 80%;
+    margin: 10% auto;
+}
+
+#maddie-point {
+    width: 30%;
+    margin:  0 35% 50px;
+}
 
 
 /* Footer */
