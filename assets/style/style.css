@@ -364,6 +364,19 @@ p {
     margin-right: 15px;
 }
 
+/* How To Join */
+
+.join-explanation {
+    margin-top: 10px;
+    font-size: 80%;
+}
+
+.disclamer {
+    width: 80%;
+    margin: 15px auto;
+    line-height: 100%;
+}
+
 /* Footer */
 
 footer {
