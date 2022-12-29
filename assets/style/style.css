@@ -127,7 +127,7 @@ p {
     font-size: 300%;
 }
 
-.nav-text:hover, .option-active, #discord-link:hover, .members-option:hover {
+.nav-text:hover, .option-active, #discord-link:hover, .members-option:hover, #submit:hover {
     background-color: #d4e9ff;
     color: #25394a;
 }
@@ -420,6 +420,18 @@ p {
     vertical-align: middle;
 }
 
+.number-input {
+    width: 70px;
+}
+
+#submit {
+    font-weight: 700;
+    color: #e7f3ff;
+    background-color: #131e27;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
 
 
 

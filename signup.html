@@ -38,11 +38,12 @@
             <h2 class="disclamer align-center">Note that the form below has been created as a prototype for a university project and will not be processed as an application for server membership!</h2>
             <h3 class="disclamer align-center">You can find the actual application form in the #apply-to-join channel on our Discord server.</h3>
 
-            <form action="thankyou.html" method="post" id="form">
+            <form action="thankyou.html" id="form">
                 <div id="form-inner-box">
+
                     <label for="username" class="form-label">Minecraft username:</label> <br>
-                    <input type="text" name="usename" id="username" class="text-input form-element" required>
-                    <br>
+                    <input type="text" name="usename" id="username" class="text-input form-element" required> <br>
+
                     <label for="discord-name" class="form-label">Discord username:</label> <br>
                     <input type="text" name="discord-name" id="discord-name" class="text-input form-element" required>
 
@@ -61,6 +62,17 @@
                         <input type="checkbox" name="platform6" id="platform6" value="other" class="checkbox">
                         <label for="platform6" class="checkbox-label">Other (Amazon Fire, Gear VR, Oculus)</label> <br>
                     </div>
+                    
+                    <label for="location" class="form-label">In what country / time zone are you located?</label> <br>
+                    <input type="text" name="location" id="location" class="text-input form-element" required> <br>
+
+                    <label for="age" class="form-label">How old are you?</label> <br>
+                    <input type="number" name="age" id="age" min="18" max="99" class="text-input number-input form-element" required> <br>
+
+                    <label for="experience" class="form-label">How experienced are you at playing Minecraft?</label><br>
+                    <textarea name="experience" id="experience" cols="25" rows="10" class="form-element text-input"></textarea> <br>
+
+                    <input type="submit" value="Submit" id="submit" class="form-label">
 
                 </div>
             </form>
