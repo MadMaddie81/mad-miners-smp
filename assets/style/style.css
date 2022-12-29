@@ -330,6 +330,11 @@ p {
     scroll-snap-align: center;
 }
 
+#mcooz-pic {
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
 /* Footer */
 
 footer {
