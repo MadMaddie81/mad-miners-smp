@@ -580,6 +580,15 @@ footer h3 {
         background: #8ab5ff;
     }
 
+    #map {
+        width: 80%;
+        margin: 15px 10% 0;
+    }
+
+    #map-captions {
+        margin-left: 10%;
+    }
+
     .hr-div hr {
         width: 60vw;
     }
