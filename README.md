@@ -60,10 +60,13 @@ The navigation bar is the fully interactive main hub of the project that will ea
 * It still fills an important role as it counterbalances the header and lets the viewer know that they have reached the bottom of the page.
 
 #### __Favicon__
+![Favicon](assets/docs/readme-imgs/favicon-readme.png)
 * All pages are decorated with a diamond favicon.
 * The favicon appears on the browser tab and helps the viewer identify the correct website when several tabs are open.
 
 ### __The Landing Page__
+
+The purpose of the landing page is to give the viewer a plesant first experience of the site and efficiently provide information about what type of server the MadMiners is.
 
 ![Landing](assets/docs/readme-imgs/landing.png)
 
@@ -73,7 +76,27 @@ The navigation bar is the fully interactive main hub of the project that will ea
     * The second image shows some server members working together to defeat the ender dragon. This picture speaks for the inclusive, non-toxic community we have on the MadMiners SMP.
     * Lastly, the text about a high quality server is accompanied by a picture of a collection of automatic redstone farms. Redstone can be seen as a mix between mechanics and magic and is usually very appealing to the engineers, mathematicians and developers that try their hand at Minecraft. It has the potential to lag down the game and even crash a server if done wrong, but is very rewarding when done right.
 
-<hr>
+### __The Information Page__
+
+The purpose of the Info page is to give all the information the viewer might need when considering wether to apply for server membership. It tells about what the player can expect from the server, and what is expexted of them in return.
+
+![Info](assets/docs/readme-imgs/info.png)
+
+* The info page is divided into four segments. 
+* The first segment (depicted above) has the page header, an interactive local navigation bar that gives the viewer efficient access to the other three segments, and a map over the main area of the MadMiners world.
+    * The distance from the east border of the map to the west border is about 8km.
+    * A marker has been put down to point out where you will spawn when first arriving to the server.
+    * The white areas north and east of the provided spawn point is the mountains depicted on the site's background image.
+* The next segment you get to is the server's technical data.
+    * Here you will find a link to our server host. Nodecraft. This link will open in a new tab.
+    * The world seed and spawn location information can be used to visit the world the server is based on in the viewer's own version of the game.
+* Next we have the Server Rules segment.
+    * This educates potential member applicants of what is and isn't accepted behaviour on the server.
+* The last segment is a long list of all the the ways the game has been customised and tweaked on the MadMiners to ensure an optimal player experience.
+* Below each segment you will find a dividing line with a button that efficiently brings you back to the top of the page.
+
+![Up](assets/docs/readme-imgs/up.png)
+
 
 
 
