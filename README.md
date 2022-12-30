@@ -218,6 +218,7 @@ Watch the website [__HERE__](https://madmaddie81.github.io/mad-miners-smp/)
 * The layout is inspired by the [Hermitcraft](https://hermitcraft.com/) website.
 * I used the [Love Running project](https://github.com/MadMaddie81/love-running/blob/main/assets/css/style.css) we did for class as reference when writing the media queries.
 * The icons used were provided by [Font Awesome](https://fontawesome.com/)
+* The code for the favicon was created by [favicon.io](https://favicon.io/)
 
 ### __Media__
 
