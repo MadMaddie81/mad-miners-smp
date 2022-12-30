@@ -113,5 +113,26 @@ This page was made to honour some of the server's most prominent members.
 * The YouTubers also has one of their videos embedded in their presentation. The videos does not autoplay and has working controls.
 * Below each member we once again find the dividing line with the UP-button we previously saw on the Info Page.
 
+### __The Signup Page__
+
+The last page accessible from the navigation bar is the How To Join page. <br>
+The page begins with a short description of what the player experience on the server is like.
+
+![Form](assets/docs/readme-imgs/form.png)
+
+* This project was created as a part of a university course and the form provided on this page will not actually sign you up for server membership.
+* A big disclamer has been provided on the page and once again points to the importance of the Discord server, where the actual application form can be found.
+* However, it's fully possible to fill in and submit the form.
+    * To be allowed to submit the form all data has to be filled in, except the question about your Minecraft experience, which isn't mandatory to answer.
+    * Since the server is for adults only the form won't let you submit an age lower than 18. It also limits the age to double digits since it's very unlikely for applicants to have a three digit age.
+
+### __The Thank You Page__
+
+This is just a simple page you will reach by submitting the signup form. <br>
+The page still has access to the main navigation bar, which will bring you back to the rest of the site's content.
+
+![ThankYou](assets/docs/readme-imgs/thankyou.png)
+
+
 
 
