@@ -97,6 +97,21 @@ The purpose of the Info page is to give all the information the viewer might nee
 
 ![Up](assets/docs/readme-imgs/up.png)
 
+### __The Members Page__
+Next we have the Members Page. <br>
+This page was made to honour some of the server's most prominent members.
+
+![MembersNav](assets/docs/readme-imgs/members-nav.png)
+
+* Once again we have a local navigation bar for quick access to all the different members' sections.
+
+![Members](assets/docs/readme-imgs/members-presentation.png)
+
+* Each member presentation consists of a short presentation, a picture of the player's in-game avatar and a scrollable gallery of some of their builds from the server.
+* Some of the presentations has been written by the members themselves, and some has been provided by me.
+* Those of the members who are content creators has their channels linked next to their name, represented by Font Awesome icons. These links will open in a new tab.
+* The YouTubers also has one of their videos embedded in their presentation. The videos does not autoplay and has working controls.
+* Below each member we once again find the dividing line with the UP-button we previously saw on the Info Page.
 
 
 
