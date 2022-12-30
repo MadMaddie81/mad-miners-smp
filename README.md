@@ -133,6 +133,97 @@ The page still has access to the main navigation bar, which will bring you back 
 
 ![ThankYou](assets/docs/readme-imgs/thankyou.png)
 
+### __The 404 Page__
 
+* If the viewer tries to navigate to a broken link they will be brought to the 404 page.
+* From this page you can easilly navigate your way back to the other pages without needing to use the browser's back-button.
+* The page has a nice picture of Maddie and Coop chatting on a balcony.
 
+![404](assets/docs/readme-imgs/404.png)
+
+### __Existing Features__
+
+* Responsive design that looks good on screen widths from 320px and up.
+* All external links opens in new tabs and has proper aria labels.
+* All information needed for potential new server members.
+* Embedded YouTube videos on the Members page.
+* Scrollable picture galleries on the Members page.
+* Signup form with connected Thank You page.
+* 404-page with access to the navigation bar.
+
+### __Features Left To Implement__ 
+
+* Several more pages, such as a Q&A-page and a Downloads page for previous seasons' world files.
+* A fully working application form to join the MadMiners.
+* Change out the scrollable galleries for more elegant carousels with the help of JavaScript.
+* More elegant navigation bars with the help of JavaScript.
+
+<hr>
+
+## __Design & Techniques__
+
+* When I first started this project I began with figuring out the basic layout and looks of the core elements in __Photoshop__. 
+
+![Layout](assets/docs/readme-imgs/layout.jpg)
+
+* After that I recreated my design with HTML and CSS using __Gitpod__.
+* The member avatars and the image on the 404 page was created with a Minecraft 3d animation program called __Mine-imator__
+
+<hr>
+
+## __Testing & Bugs__
+
+### __Responsiveness__
+
+* All pages has been thoroughly tested for screen sizes from 320px and up. <br>
+* Besides checking the pages' responsiveness with the Chrome Developer tools, the pages has regularly been tested in Edge and Safari, on PC, iPhoneXR and iPadAir, both in vertical and horizontal mode.
+* The site is responsive on all screen sizes and no images are pixelated or stretched. No unwanted horizontal scroll is present. No elements overlap.
+* I have tested that every single link on the site work as intended, opens in the correct tab and send you to the right part of the page.
+
+### __Code Validation__
+
+* __HTML:__ The code of all pages passed through the official [W3C validator](https://validator.w3.org/) without any problems.
+* __CSS:__ The CSS code made it through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) without errors.
+
+### __Accessibility__
+
+* All pages has had their accessibility checked by [Wave](https://wave.webaim.org/) without any remarks.
+* All navigation links has proper aria labels.
+* No contrast issues has been found.
+
+![Wave](assets/docs/readme-imgs/wavetest.png)
+
+### __Unfixed Bugs__
+* I have a problem with the scroll galleries on the Members page on devices using mouse and keyboard.
+    * If you click on the forward or backward arrows on the scrollbar the gallery pass by all pictures and goes straight to the end.
+    * If you click and drag the scroll indicator it moves between the images properly.
+    * On touch screens the galleries scroll flawlessly.
+    * I spent way too many hours Googling the issue but had to admit defeat. I believe the issue is connected to the scroll-snap-align feature, but I wasn't able to solve the problem.
+    * I decided to leave the bug in until I can switch out the entire gallery for a carousel or slideshow using JavaScript.
+* The Members page is also very picture heavy and load slowly on devices with a slow connection.
+    * This issue could easily be fixed by reducing the file sizes instead of just using the raw screenshots.
+    * The reason this hasn't been fixed is simply that I ran out of time. This project got way bigger than I had intended when I started it and I had to prioritize making sure that I submit a cohesive, nice looking website for evaluation.
+
+## __Deployment__
+The project was deployed to GitHub Pages using the Main Branch source. <br>
+Watch the website [__HERE__](https://madmaddie81.github.io/mad-miners-smp/)
+
+* All code and files has been submitted to Github by using the Git commands 'git add', 'git commit' and 'git push'
+* GitHub pages can be reached through opening the Settings tab in the GitHub repository.
+
+## __Credits__
+
+### __Content__
+
+* The layout is inspired by the [Hermitcraft](https://hermitcraft.com/) website.
+* I used the [Love Running project](https://github.com/MadMaddie81/love-running/blob/main/assets/css/style.css) we did for class as reference when writing the media queries.
+* The icons used were provided by [Font Awesome](https://fontawesome.com/)
+
+### __Media__
+
+* The Minecraft logo in the header, the nether star gif in the navigation bar and the favicon diamond has been borrowed from the [Minecraft Wiki](https://minecraft.fandom.com/wiki/Minecraft_Wiki)
+* The map on the Info page comes from [Chunkbase](https://www.chunkbase.com/)
+* All other artwork has been created by myself.
+
+<hr>
 
