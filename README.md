@@ -14,7 +14,7 @@ Visit the deployed project [__HERE__](https://madmaddie81.github.io/mad-miners-s
 
 ### __The Core Elements__
 
-These are the features that companions the viewer through all the pages and brings cohesiveness to the project.
+These are the features that will companion the viewer through all the pages and bring cohesiveness to the project.
 
 #### __The Background__
 
@@ -33,6 +33,7 @@ These are the features that companions the viewer through all the pages and brin
 * All the way at the top the official Minecraft Bedrock Edition logo presides, eliminating all doubt of what version of the game the server is hosting.
     * There are two editions of the game; Minecraft Bedrock, which is written in C++ and is accessible on all major consoles as well as Windows 10 and iOS/Android. The other version is Minecraft Java, and as the name says it's written in Java and is basically only accessible on PC. Both versions has their pros and cons.
 * The header's other feature is a MadMiners SMP logo I created in Photoshop using the same style and font as the official Minecraft logo.
+    * SMP is an abbreviation of Survival Multiplayer, which is a common playstyle in Minecraft.
 
 #### __The Navigation Bar__
 
@@ -57,6 +58,20 @@ The navigation bar is the fully interactive main hub of the project that will ea
 ![Footer](assets/docs/readme-imgs/footer.png)
 * The footer is very simple and contains a darker coloured strip and a copyright disclaimer.
 * It still fills an important role as it counterbalances the header and lets the viewer know that they have reached the bottom of the page.
+
+#### __Favicon__
+* All pages are decorated with a diamond favicon.
+* The favicon appears on the browser tab and helps the viewer identify the correct website when several tabs are open.
+
+### __The Landing Page__
+
+![Landing](assets/docs/readme-imgs/landing.png)
+
+* When the viewer arrives to the site they are immediately presented with a welcoming message. 
+* After that they can read about the server values, accompanied by appropriate images from the server.
+    * A nice house represents the ability to play the game in peace without having to worry about thieving and destructive neighbours, which is a common occurance on most public servers.
+    * The second image shows some server members working together to defeat the ender dragon. This picture speaks for the inclusive, non-toxic community we have on the MadMiners SMP.
+    * Lastly, the text about a high quality server is accompanied by a picture of a collection of automatic redstone farms. Redstone can be seen as a mix between mechanics and magic and is usually very appealing to the engineers, mathematicians and developers that try their hand at Minecraft. It has the potential to lag down the game and even crash a server if done wrong, but is very rewarding when done right.
 
 <hr>
 
